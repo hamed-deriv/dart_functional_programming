@@ -6,4 +6,6 @@ void main(List<String> arguments) {
   print(toString(100));
 
   print(incrementAndToString(100));
+
+  print(incrementAndToString2.call(100));
 }
